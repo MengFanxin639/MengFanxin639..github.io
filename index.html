@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>个人展示页面</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="index_data/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="index_data/jquery-3.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $(".aui-head-title").click(function(){
+                    $(this).toggleClass("aui-current-up").siblings(".aui-head-title").removeClass("aui-current-up");
+                    $(this).toggleClass("aui-current-tx").siblings(".aui-head-title").removeClass("aui-current-tx");
+                    $(this).next(".aui-box-content").slideToggle(100).siblings(".aui-box-content").slideUp(400);
+                })
+            })
+        </script>
+    </head>
+    <body>
+
+        <section class="aui-flexView">
+            <header class="aui-navBar aui-navBar-fixed">
+                <a href="javascript:;" class="aui-navBar-item">
+                    <i class="icon icon-return"></i>
+                </a>
+                <div class="aui-center">
+                    <span class="aui-center-title"></span>
+                </div>
+                <a href="javascript:;" class="aui-navBar-item">
+                    <i class="icon icon-more"></i>
+                </a>
+            </header>
+            <section class="aui-scrollView">
+                <div class="aui-show-content">
+                    <div class="aui-show-user">
+                        <img src="index_data/user-001.png" alt="">
+                    </div>
+                </div>
+                <div class="aui-show-head">
+                    <h2>孟凡新</h2>
+                    <p>梦想当码农</p>
+                </div>
+                <div class="aui-show-button b-line">
+                    <a href="javascript:;"><i class="icon icon-add"></i>关注</a>
+                    <a href="javascript:;" class="aui-show-border">私信</a>
+                </div>
+                <div class="aui-flex b-line">
+                    <div class="aui-show-doctor">
+                        <i class="icon icon-doctor"></i>Java小白
+                    </div>
+                    <div class="aui-flex-box"></div>
+                    <div class="aui-show-arrow">详细资料</div>
+                </div>
+                <div class="aui-show-list b-line">
+                    <div class="aui-flex">
+                        <div class="aui-show-doctor">
+                            <i class="icon icon-vip"></i>
+                        </div>
+                        <div class="aui-flex-box">
+                            <b>我是个低调的人，梦想是让全世界都知道我是个低调的人！</b>
+                        </div>
+                    </div>
+                    <div class="aui-flex">
+                        <div class="aui-show-doctor">
+                            <i class="icon icon-book"></i>
+                        </div>
+                        <div class="aui-flex-box">
+                            <b>任小龙--Java大神之路</b>
+                        </div>
+                    </div>
+                    <div class="aui-flex">
+                        <div class="aui-show-doctor">
+                            <i class="icon icon-zan"></i>
+                        </div>
+                        <div class="aui-flex-box">
+                            <b>6366K赞同.122K感谢.309K收藏</b>
+                        </div>
+                    </div>
+                    <div class="aui-head-title"></div>
+                    <div class="aui-box-content">
+                        <div class="aui-flex">
+                            <div class="aui-show-doctor">
+                                <i class="icon icon-vip"></i>
+                            </div>
+                            <div class="aui-flex-box">
+                                <b>医学、妇科科学、科普话题优秀回答者</b>
+                            </div>
+                        </div>
+                        <div class="aui-flex">
+                            <div class="aui-show-doctor">
+                                <i class="icon icon-book"></i>
+                            </div>
+                            <div class="aui-flex-box">
+                                <b>出版作品《爸爸的必修课》《医者天》</b>
+                            </div>
+                        </div>
+                        <div class="aui-flex">
+                            <div class="aui-show-doctor">
+                                <i class="icon icon-zan"></i>
+                            </div>
+                            <div class="aui-flex-box">
+                                <b>6366K赞同.122K感谢.309K收藏</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aui-show-follow">
+                    <a href="javascript:;" class="">
+                        <b>893K</b>关注他的人
+                    </a>
+                    <a href="javascript:;" class="">
+                        <b>101K</b>他关注的人
+                    </a>
+                </div>
+                <div class="divHeight"></div>
+                <div class="aui-flex">
+                    <div class="aui-show-doctor">
+                        <i class="icon icon-vip"></i>徽章
+                    </div>
+                    <div class="aui-flex-box">
+
+                    </div>
+                    <div class="aui-show-arrow">
+                        <img src="index_data/icon-tag-001.png" alt="">
+                        <img src="index_data/icon-tag-002.png" alt="">
+                        <img src="index_data/icon-tag-003.png" alt="">
+                    </div>
+                </div>
+                <div class="divHeight"></div>
+            </section>
+        </section>
+
+    
+
+</body></html>
